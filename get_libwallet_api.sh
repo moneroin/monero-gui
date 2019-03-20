@@ -1,5 +1,5 @@
 #!/bin/bash
-MONERO_URL=https://github.com/monero-project/monero.git
+MONERO_URL=https://github.com/moneroin/monero.git
 MONERO_BRANCH=master
 
 pushd $(pwd)
@@ -17,7 +17,7 @@ if [ ! -d $MONERO_DIR/src ]; then
 fi
 git submodule update --remote
 git -C $MONERO_DIR fetch
-git -C $MONERO_DIR checkout v0.13.0.4
+git -C $MONERO_DIR checkout v1.0.0.0
 
 # get monero core tag
 get_tag
