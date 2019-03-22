@@ -11,7 +11,15 @@ WALLET_ROOT=$$PWD/monero
 
 CONFIG += c++11 link_pkgconfig
 packagesExist(hidapi-libusb) {
-    PKGCONFIG += hidapi-libusb
+    !linux {
+        PKGCONFIG += hidapi-libusb
+    }
+    linux {
+        CONFIG(static) {
+	} else {
+            PKGCONFIG += hidapi-libusb
+	}
+    }
 }
 !win32 {
     QMAKE_CXXFLAGS += -fPIC -fstack-protector -fstack-protector-strong
@@ -306,7 +314,7 @@ linux {
             -Wl,-Bdynamic \
             -lGL
         CONFIG(static) {
-          LIBS+= -ldl
+          LIBS+= -ldl -lusb-1.0
         }
     }
     # currently monero has an issue with "static" build and linunwind-dev,
