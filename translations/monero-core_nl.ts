@@ -358,8 +358,8 @@
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="93"/>
-        <source>WARNING: Do not reuse your Monero keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
-        <translation>WAARSCHUWING: Gebruik uw Monero-sleutels niet opnieuw op een andere blockchain. Daarmee wordt uw privacy aangetast, TENZIJ risicobeperking van het hergebruik van sleutels is ingebouwd.</translation>
+        <source>WARNING: Do not reuse your Monero Infinity keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
+        <translation>WAARSCHUWING: Gebruik uw Monero Infinity-sleutels niet opnieuw op een andere blockchain. Daarmee wordt uw privacy aangetast, TENZIJ risicobeperking van het hergebruik van sleutels is ingebouwd.</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="196"/>
@@ -621,8 +621,8 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="82"/>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation>Minen met uw computer helpt het Monero-netwerk sterker te worden. Hoe meer individuen er minen, des te moeilijker het is om het Monero-netwerk aan te vallen. Ieder beetje helpt dus.&lt;br&gt; &lt;br&gt; Minen geeft u ook een kleine kans om Monero te verdienen. Uw computer zal namelijk specifieke tekenreeksen berekenen en zodoende op zoek gaan naar Monero blok-oplossingen. Als u een blok vindt, ontvangt u de bijbehorende beloning. Veel success!</translation>
+        <source>Mining with your computer helps strengthen the Monero Infinity network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero Infinity. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation>Minen met uw computer helpt het Monero Infinity-netwerk sterker te worden. Hoe meer individuen er minen, des te moeilijker het is om het Monero Infinity-netwerk aan te vallen. Ieder beetje helpt dus.&lt;br&gt; &lt;br&gt; Minen geeft u ook een kleine kans om Monero Infinity te verdienen. Uw computer zal namelijk specifieke tekenreeksen berekenen en zodoende op zoek gaan naar Monero Infinity blok-oplossingen. Als u een blok vindt, ontvangt u de bijbehorende beloning. Veel success!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="95"/>
@@ -878,13 +878,13 @@
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="138"/>
-        <source>With more Monero</source>
-        <translation>Met meer Monero</translation>
+        <source>With more Monero Infinity</source>
+        <translation>Met meer Monero Infinity</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="139"/>
-        <source>With not enough Monero</source>
-        <translation>Met niet genoeg Monero</translation>
+        <source>With not enough Monero Infinity</source>
+        <translation>Met niet genoeg Monero Infinity</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="141"/>
@@ -1052,8 +1052,8 @@
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="89"/>
-        <source>Embedded Monero version: </source>
-        <translation>Ingesloten Monero-versie: </translation>
+        <source>Embedded Monero Infinity version: </source>
+        <translation>Ingesloten Monero Infinity-versie: </translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="118"/>
@@ -1175,13 +1175,13 @@ De naam van het oude cachebestand wordt gewijzigd, zodat het later kan worden he
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="232"/>
-        <source>Uses a third-party server to connect to the Monero network. Less secure, but easier on your computer.</source>
-        <translation>Er wordt een externe server gebruikt om verbinding te maken met het Monero-netwerk. Minder veilig, maar ook minder werk voor uw computer.</translation>
+        <source>Uses a third-party server to connect to the Monero Infinity network. Less secure, but easier on your computer.</source>
+        <translation>Er wordt een externe server gebruikt om verbinding te maken met het Monero Infinity-netwerk. Minder veilig, maar ook minder werk voor uw computer.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="277"/>
-        <source>To find a remote node, type &apos;Monero remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
-        <translation>Typ &apos;Monero remote node&apos; in uw favoriete zoekmachine om een externe node te vinden. Zorg dat de node beschikbaar wordt gesteld door een derde partij die u vertrouwt.</translation>
+        <source>To find a remote node, type &apos;Monero Infinity remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
+        <translation>Typ &apos;Monero Infinity remote node&apos; in uw favoriete zoekmachine om een externe node te vinden. Zorg dat de node beschikbaar wordt gesteld door een derde partij die u vertrouwt.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="291"/>
@@ -1337,8 +1337,8 @@ De naam van het oude cachebestand wordt gewijzigd, zodat het later kan worden he
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="106"/>
-        <source>This page allows you to interact with the shared ring database. This database is meant for use by Monero wallets as well as wallets from Monero clones which reuse the Monero keys.</source>
-        <translation>Op deze pagina kunt u de database met gedeelde ringen gebruiken. Deze database is bedoeld voor zowel Monero als klonen van Monero waarin Monero-sleutels worden hergebruikt.</translation>
+        <source>This page allows you to interact with the shared ring database. This database is meant for use by Monero Infinity wallets as well as wallets from Monero Infinity clones which reuse the Monero Infinity keys.</source>
+        <translation>Op deze pagina kunt u de database met gedeelde ringen gebruiken. Deze database is bedoeld voor zowel Monero Infinity als klonen van Monero Infinity waarin Monero Infinity-sleutels worden hergebruikt.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="119"/>
@@ -1354,9 +1354,9 @@ De naam van het oude cachebestand wordt gewijzigd, zodat het later kan worden he
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="122"/>
-        <source>In order to obscure which inputs in a Monero transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Monero uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Monero project and is available on the getmonero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Monero clones) yourself using the monero-blockchain-blackball tool to create a list of known spent outputs.&lt;br&gt;</source>
-        <translatorcomment>Nobody who is stupid enough to use MoneroV will be smart enough to understand this.</translatorcomment>
-        <translation>Om te verbergen welke inputs in een Monero-transactie worden uitgegeven, moet een derde niet kunnen zien welke inputs in een ring al zijn uitgegeven. Daardoor zou de privacybescherming van ring-handtekeningen worden verzwakt. Als alle inputs op één na al zijn uitgegeven, is zichtbaar welke input echt wordt uitgegeven. Dan hebben ring-handtekeningen, een van de drie beschermingslagen van Monero, geen effect meer.&lt;br&gt;Met een lijst met bekende uitgegeven inputs kunt u voorkomen dat u ze in nieuwe transacties gebruikt. Deze lijst wordt onderhouden door het Monero-project en is beschikbaar op de website getmonero.org. U kunt de lijst hier importeren.&lt;br&gt;Maar u kunt ook zelf de blockchain doorzoeken (en van Monero gekopieerde blockchains waarop sleutels worden hergebruikt) met de tool monero-blockchain-blackball, om een lijst met bekende uitgegeven outputs te genereren.&lt;br&gt;</translation>
+        <source>In order to obscure which inputs in a Monero Infinity transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Monero Infinity uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Monero Infinity project and is available on the getmonero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Monero Infinity clones) yourself using the monero-blockchain-blackball tool to create a list of known spent outputs.&lt;br&gt;</source>
+        <translatorcomment>Nobody who is stupid enough to use Monero InfinityV will be smart enough to understand this.</translatorcomment>
+        <translation>Om te verbergen welke inputs in een Monero Infinity-transactie worden uitgegeven, moet een derde niet kunnen zien welke inputs in een ring al zijn uitgegeven. Daardoor zou de privacybescherming van ring-handtekeningen worden verzwakt. Als alle inputs op één na al zijn uitgegeven, is zichtbaar welke input echt wordt uitgegeven. Dan hebben ring-handtekeningen, een van de drie beschermingslagen van Monero Infinity, geen effect meer.&lt;br&gt;Met een lijst met bekende uitgegeven inputs kunt u voorkomen dat u ze in nieuwe transacties gebruikt. Deze lijst wordt onderhouden door het Monero Infinity-project en is beschikbaar op de website getmonero.org. U kunt de lijst hier importeren.&lt;br&gt;Maar u kunt ook zelf de blockchain doorzoeken (en van Monero Infinity gekopieerde blockchains waarop sleutels worden hergebruikt) met de tool monero-blockchain-blackball, om een lijst met bekende uitgegeven outputs te genereren.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="143"/>
@@ -1426,13 +1426,13 @@ De naam van het oude cachebestand wordt gewijzigd, zodat het later kan worden he
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="263"/>
-        <source>In order to avoid nullifying the protection afforded by Monero&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Monero clone allows you to spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Monero and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Monero clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Monero safely.&lt;br&gt;If you do not use a key-reusing Monero clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
-        <translation>Om de bescherming door ring-handtekeningen van Monero in stand te houden, mag een output niet met andere ringen worden uitgegeven op andere blockchains. Dit wordt een probleem als u bestaande outputs uitgeeft op een Monero-kloon met hergebruik van sleutels. In dat geval moet u erop letten dat dezelfde ring op beide blockchains wordt gebruikt voor deze outputs.&lt;br&gt;Dit wordt automatisch gedaan door Monero en software die sleutels hergebruikt maar niet actief probeert uw privacy te verminderen.&lt;br&gt;Als u een Monero-kloon zonder deze bescherming gebruikt, kunt u toch uw transacties beschermen door eerst op de kloon te betalen, en vervolgens de ring op deze pagina in te voeren, zodat u uw Monero veilig kunt uitgeven.&lt;br&gt;Als u geen gebruik maakt van een Monero-kloon met hergebruik van sleutels maar zonder deze beveiliging, hoeft u niets te doen, want alles gaat automatisch.&lt;br&gt;</translation>
+        <source>In order to avoid nullifying the protection afforded by Monero Infinity&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Monero Infinity clone allows you to spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Monero Infinity and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Monero Infinity clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Monero Infinity safely.&lt;br&gt;If you do not use a key-reusing Monero Infinity clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
+        <translation>Om de bescherming door ring-handtekeningen van Monero Infinity in stand te houden, mag een output niet met andere ringen worden uitgegeven op andere blockchains. Dit wordt een probleem als u bestaande outputs uitgeeft op een Monero Infinity-kloon met hergebruik van sleutels. In dat geval moet u erop letten dat dezelfde ring op beide blockchains wordt gebruikt voor deze outputs.&lt;br&gt;Dit wordt automatisch gedaan door Monero Infinity en software die sleutels hergebruikt maar niet actief probeert uw privacy te verminderen.&lt;br&gt;Als u een Monero Infinity-kloon zonder deze bescherming gebruikt, kunt u toch uw transacties beschermen door eerst op de kloon te betalen, en vervolgens de ring op deze pagina in te voeren, zodat u uw Monero Infinity veilig kunt uitgeven.&lt;br&gt;Als u geen gebruik maakt van een Monero Infinity-kloon met hergebruik van sleutels maar zonder deze beveiliging, hoeft u niets te doen, want alles gaat automatisch.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="285"/>
-        <source>This records rings used by outputs spent on Monero on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
-        <translation>Hier voert u in welke ringen zijn gebruikt voor in Monero uitgegeven outputs op een blockchain met hergebruik van sleutels, zodat dezelfde ring kan worden hergebruikt om uw privacy te beschermen.</translation>
+        <source>This records rings used by outputs spent on Monero Infinity on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
+        <translation>Hier voert u in welke ringen zijn gebruikt voor in Monero Infinity uitgegeven outputs op een blockchain met hergebruik van sleutels, zodat dezelfde ring kan worden hergebruikt om uw privacy te beschermen.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="296"/>
@@ -1847,8 +1847,8 @@ De naam van het oude cachebestand wordt gewijzigd, zodat het later kan worden he
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="619"/>
-        <source>Monero sent successfully</source>
-        <translation>Monero is verzonden</translation>
+        <source>Monero Infinity sent successfully</source>
+        <translation>Monero Infinity is verzonden</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="702"/>
@@ -2098,13 +2098,13 @@ Voor een betalingsbewijs hoeft u het adres van de ontvanger niet op te geven.</t
     <name>WizardConfigure</name>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="79"/>
-        <source>We’re almost there - let’s just configure some Monero preferences</source>
-        <translation>Bijna klaar - laten we enkele Monero voorkeuren instellen</translation>
+        <source>We’re almost there - let’s just configure some Monero Infinity preferences</source>
+        <translation>Bijna klaar - laten we enkele Monero Infinity voorkeuren instellen</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="97"/>
-        <source>Kickstart the Monero blockchain?</source>
-        <translation>De Monero-blockchain starten?</translation>
+        <source>Kickstart the Monero Infinity blockchain?</source>
+        <translation>De Monero Infinity-blockchain starten?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="113"/>
@@ -2118,8 +2118,8 @@ Voor een betalingsbewijs hoeft u het adres van de ontvanger niet op te geven.</t
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="140"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero instance. However, storing the full blockchain is beneficial to the security of the Monero network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation>De modus voor schijfbehoud gebruikt substantieel minder schijfruimte, maar dezelfde hoeveelheid bandbreedte als een gewone Monero-installatie. Het volledig opslaan van de Monero-blockchain is echter beter voor de beveiliging van het Monero-netwerk. Deze optie is geschikt als u een apparaat gebruikt met beperkte schijfruimte.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero Infinity instance. However, storing the full blockchain is beneficial to the security of the Monero Infinity network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation>De modus voor schijfbehoud gebruikt substantieel minder schijfruimte, maar dezelfde hoeveelheid bandbreedte als een gewone Monero Infinity-installatie. Het volledig opslaan van de Monero Infinity-blockchain is echter beter voor de beveiliging van het Monero Infinity-netwerk. Deze optie is geschikt als u een apparaat gebruikt met beperkte schijfruimte.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="153"/>
@@ -2128,8 +2128,8 @@ Voor een betalingsbewijs hoeft u het adres van de ontvanger niet op te geven.</t
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="169"/>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Minen beveiligt het Monero-netwerk en u ontvangt ook een kleine beloning voor het verrichte werk. Deze optie laat Monero minen als uw computer op netstroom is aangesloten en niets aan het doen is. Het stopt met minen als u weer gebruikt maakt van uw computer.</translation>
+        <source>Mining secures the Monero Infinity network, and also pays a small reward for the work done. This option will let Monero Infinity mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Minen beveiligt het Monero Infinity-netwerk en u ontvangt ook een kleine beloning voor het verrichte werk. Deze optie laat Monero Infinity minen als uw computer op netstroom is aangesloten en niets aan het doen is. Het stopt met minen als u weer gebruikt maakt van uw computer.</translation>
     </message>
 </context>
 <context>
@@ -2160,9 +2160,9 @@ Voor een betalingsbewijs hoeft u het adres van de ontvanger niet op te geven.</t
     <name>WizardDaemonSettings</name>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="114"/>
-        <source>To be able to communicate with the Monero network your wallet needs to be connected to a Monero node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
+        <source>To be able to communicate with the Monero Infinity network your wallet needs to be connected to a Monero Infinity node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
         <translatorcomment>Please don&apos;t use hard-coded spaces for formatting. The text will be longer in the translation.</translatorcomment>
-        <translation>Om te kunnen communiceren met het Monero-netwerk moet uw portemonnee verbonden zijn met een Monero-node. Het is voor uw privacy het beste om uw eigen node te gebruiken.&lt;br&gt;&lt;br&gt;Als u niet uw eigen node kunt gebruiken, kunt u verbinding maken met een externe node.</translation>
+        <translation>Om te kunnen communiceren met het Monero Infinity-netwerk moet uw portemonnee verbonden zijn met een Monero Infinity-node. Het is voor uw privacy het beste om uw eigen node te gebruiken.&lt;br&gt;&lt;br&gt;Als u niet uw eigen node kunt gebruiken, kunt u verbinding maken met een externe node.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="126"/>
@@ -2194,8 +2194,8 @@ Voor een betalingsbewijs hoeft u het adres van de ontvanger niet op te geven.</t
     <name>WizardDonation</name>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="93"/>
-        <source>Monero development is solely supported by donations</source>
-        <translation>De ontwikkeling van Monero wordt uitsluitend ondersteund door donaties</translation>
+        <source>Monero Infinity development is solely supported by donations</source>
+        <translation>De ontwikkeling van Monero Infinity wordt uitsluitend ondersteund door donaties</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="113"/>
@@ -2209,8 +2209,8 @@ Voor een betalingsbewijs hoeft u het adres van de ontvanger niet op te geven.</t
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="162"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation>Voor elke transactie betaalt u een kleine vergoeding. Met deze optie voegt u een extra bedrag (als percentage van die vergoeding) aan uw transactie toe om de ontwikkeling van Monero te ondersteunen. Bijvoorbeeld, een automatische donatie van 50% neemt een transactievergoeding van 0.005 XMR en voegt 0.0025 XMR toe om de ontwikkeling van Monero te ondersteunen.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero Infinity development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero Infinity development.</source>
+        <translation>Voor elke transactie betaalt u een kleine vergoeding. Met deze optie voegt u een extra bedrag (als percentage van die vergoeding) aan uw transactie toe om de ontwikkeling van Monero Infinity te ondersteunen. Bijvoorbeeld, een automatische donatie van 50% neemt een transactievergoeding van 0.005 XMR en voegt 0.0025 XMR toe om de ontwikkeling van Monero Infinity te ondersteunen.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="174"/>
@@ -2219,8 +2219,8 @@ Voor een betalingsbewijs hoeft u het adres van de ontvanger niet op te geven.</t
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="190"/>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Minen beveiligt het Monero-netwerk en u ontvangt ook een kleine beloning voor het verrichte werk. Deze optie laat Monero minen als uw computer op netstroom is aangesloten en niets aan het doen is. Het stopt met minen als u weer gebruikt maakt van uw computer.</translation>
+        <source>Mining secures the Monero Infinity network, and also pays a small reward for the work done. This option will let Monero Infinity mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Minen beveiligt het Monero Infinity-netwerk en u ontvangt ook een kleine beloning voor het verrichte werk. Deze optie laat Monero Infinity minen als uw computer op netstroom is aangesloten en niets aan het doen is. Het stopt met minen als u weer gebruikt maakt van uw computer.</translation>
     </message>
 </context>
 <context>
@@ -2434,8 +2434,8 @@ Voor een betalingsbewijs hoeft u het adres van de ontvanger niet op te geven.</t
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="76"/>
-        <source>Welcome to Monero!</source>
-        <translation>Welkom bij Monero!</translation>
+        <source>Welcome to Monero Infinity!</source>
+        <translation>Welkom bij Monero Infinity!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="87"/>
@@ -2524,8 +2524,8 @@ Voor een betalingsbewijs hoeft u het adres van de ontvanger niet op te geven.</t
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="73"/>
-        <source>Welcome to Monero!</source>
-        <translation>Welkom bij Monero!</translation>
+        <source>Welcome to Monero Infinity!</source>
+        <translation>Welkom bij Monero Infinity!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="83"/>
@@ -2755,8 +2755,8 @@ Vergoeding: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="800"/>
-        <source>Monero sent successfully: %1 transaction(s) </source>
-        <translation>Monero is verzonden: %1 transactie(s) </translation>
+        <source>Monero Infinity sent successfully: %1 transaction(s) </source>
+        <translation>Monero Infinity is verzonden: %1 transactie(s) </translation>
     </message>
     <message>
         <location filename="../main.qml" line="830"/>
@@ -2859,8 +2859,8 @@ Vergoeding: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1298"/>
-        <source>Monero</source>
-        <translation>Monero</translation>
+        <source>Monero Infinity</source>
+        <translation>Monero Infinity</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1448"/>

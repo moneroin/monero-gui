@@ -358,7 +358,7 @@
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="93"/>
-        <source>WARNING: Do not reuse your Monero keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
+        <source>WARNING: Do not reuse your Monero Infinity keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -610,8 +610,8 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="82"/>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation>Minatul cu propriul calculator ajută la creșterea puterii rețelei Monero. Cu cât se minează mai mult, cu atât rețeaua e mai greu de atacat și fiecare miner ajută.&lt;br&gt; &lt;br&gt;Minatul îți oferă de asemenea o mică șansă de a câștiga un pic de Monero. Calculatorul tău va crea hash-uri în căutarea de soluții pentru blocuri. Dacă descoperi un bloc, primești recompensa aferentă. Succes!</translation>
+        <source>Mining with your computer helps strengthen the Monero Infinity network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero Infinity. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation>Minatul cu propriul calculator ajută la creșterea puterii rețelei Monero Infinity. Cu cât se minează mai mult, cu atât rețeaua e mai greu de atacat și fiecare miner ajută.&lt;br&gt; &lt;br&gt;Minatul îți oferă de asemenea o mică șansă de a câștiga un pic de Monero Infinity. Calculatorul tău va crea hash-uri în căutarea de soluții pentru blocuri. Dacă descoperi un bloc, primești recompensa aferentă. Succes!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="95"/>
@@ -867,13 +867,13 @@
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="138"/>
-        <source>With more Monero</source>
-        <translation>Cu mai mult Monero</translation>
+        <source>With more Monero Infinity</source>
+        <translation>Cu mai mult Monero Infinity</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="139"/>
-        <source>With not enough Monero</source>
-        <translation>Cu Monero insuficient</translation>
+        <source>With not enough Monero Infinity</source>
+        <translation>Cu Monero Infinity insuficient</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="141"/>
@@ -1041,7 +1041,7 @@
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="89"/>
-        <source>Embedded Monero version: </source>
+        <source>Embedded Monero Infinity version: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1157,12 +1157,12 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="232"/>
-        <source>Uses a third-party server to connect to the Monero network. Less secure, but easier on your computer.</source>
+        <source>Uses a third-party server to connect to the Monero Infinity network. Less secure, but easier on your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="277"/>
-        <source>To find a remote node, type &apos;Monero remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
+        <source>To find a remote node, type &apos;Monero Infinity remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1319,8 +1319,8 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="106"/>
-        <source>This page allows you to interact with the shared ring database. This database is meant for use by Monero wallets as well as wallets from Monero clones which reuse the Monero keys.</source>
-        <translation>Această pagina vă permite să interacționați cu baza de date ce conține inelele distribuite. Această bază de date este menită să fie folosită de portofelul Monero și de alte portofele ale clonelor Monero ce refolosesc cheile Monero.</translation>
+        <source>This page allows you to interact with the shared ring database. This database is meant for use by Monero Infinity wallets as well as wallets from Monero Infinity clones which reuse the Monero Infinity keys.</source>
+        <translation>Această pagina vă permite să interacționați cu baza de date ce conține inelele distribuite. Această bază de date este menită să fie folosită de portofelul Monero Infinity și de alte portofele ale clonelor Monero Infinity ce refolosesc cheile Monero Infinity.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="119"/>
@@ -1336,8 +1336,8 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="122"/>
-        <source>In order to obscure which inputs in a Monero transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Monero uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Monero project and is available on the getmonero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Monero clones) yourself using the monero-blockchain-blackball tool to create a list of known spent outputs.&lt;br&gt;</source>
-        <translation>Pentru a ascunde ce inputuri sunt folosite intr-o tranzacție Monero, o terță parte nu ar trebui să știe ce inputuri într-un inel au fost deja folosite. Dacă ar putea să facă asta, ar slăbi protecția semnăturilor de inel. Dacă toate inputurile cu excepția unuia sunt deja știute să fie folosite, atunci inputul ce va fi folosit devine vizibil, anulând efectul semnăturilor de inel, unul dintre cele trei straturi principale de protecție a confidențialității ce este folosit de Monero.&lt;br&gt;Pentru a ajuta tranzacțiile să evite aceste inputuri, o listă a acestora ce sunt conuscute poate fi folosită pentru a evita utilizarea lor in noi tranzacții. O asemenea lista este întreținută de proiectul Monero și este disponibila la adresa getmonero.org, și puteți importa această lista aici.&lt;br&gt;Sau, puteți scana blockchain (și blockchain al clonelor Monero) inșivă folosind unealta monero-blockchain-blackball pentru a crea o listă de rezultate cunoscute folosite.&lt;br&gt;</translation>
+        <source>In order to obscure which inputs in a Monero Infinity transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Monero Infinity uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Monero Infinity project and is available on the getmonero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Monero Infinity clones) yourself using the monero-blockchain-blackball tool to create a list of known spent outputs.&lt;br&gt;</source>
+        <translation>Pentru a ascunde ce inputuri sunt folosite intr-o tranzacție Monero Infinity, o terță parte nu ar trebui să știe ce inputuri într-un inel au fost deja folosite. Dacă ar putea să facă asta, ar slăbi protecția semnăturilor de inel. Dacă toate inputurile cu excepția unuia sunt deja știute să fie folosite, atunci inputul ce va fi folosit devine vizibil, anulând efectul semnăturilor de inel, unul dintre cele trei straturi principale de protecție a confidențialității ce este folosit de Monero Infinity.&lt;br&gt;Pentru a ajuta tranzacțiile să evite aceste inputuri, o listă a acestora ce sunt conuscute poate fi folosită pentru a evita utilizarea lor in noi tranzacții. O asemenea lista este întreținută de proiectul Monero Infinity și este disponibila la adresa getmonero.org, și puteți importa această lista aici.&lt;br&gt;Sau, puteți scana blockchain (și blockchain al clonelor Monero Infinity) inșivă folosind unealta monero-blockchain-blackball pentru a crea o listă de rezultate cunoscute folosite.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="143"/>
@@ -1407,13 +1407,13 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="263"/>
-        <source>In order to avoid nullifying the protection afforded by Monero&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Monero clone allows you to spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Monero and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Monero clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Monero safely.&lt;br&gt;If you do not use a key-reusing Monero clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
+        <source>In order to avoid nullifying the protection afforded by Monero Infinity&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Monero Infinity clone allows you to spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Monero Infinity and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Monero Infinity clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Monero Infinity safely.&lt;br&gt;If you do not use a key-reusing Monero Infinity clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="285"/>
-        <source>This records rings used by outputs spent on Monero on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
-        <translation>Aceste inele înregistrate sunt folosite pentru outputurile cheltuite in Monero pe un lanț de chei refolosite, deci același inel poate fi refolosit pentru a evita probleme de confidențialitate.</translation>
+        <source>This records rings used by outputs spent on Monero Infinity on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
+        <translation>Aceste inele înregistrate sunt folosite pentru outputurile cheltuite in Monero Infinity pe un lanț de chei refolosite, deci același inel poate fi refolosit pentru a evita probleme de confidențialitate.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="296"/>
@@ -1828,8 +1828,8 @@ The old wallet cache file will be renamed and can be restored later.
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="619"/>
-        <source>Monero sent successfully</source>
-        <translation>Monero trimiși cu succes</translation>
+        <source>Monero Infinity sent successfully</source>
+        <translation>Monero Infinity trimiși cu succes</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="465"/>
@@ -2079,13 +2079,13 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
     <name>WizardConfigure</name>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="79"/>
-        <source>We’re almost there - let’s just configure some Monero preferences</source>
-        <translation>Aproape am terminat - mai avem de configurat câteva setări Monero</translation>
+        <source>We’re almost there - let’s just configure some Monero Infinity preferences</source>
+        <translation>Aproape am terminat - mai avem de configurat câteva setări Monero Infinity</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="97"/>
-        <source>Kickstart the Monero blockchain?</source>
-        <translation>Pornește blockchain-ul Monero?</translation>
+        <source>Kickstart the Monero Infinity blockchain?</source>
+        <translation>Pornește blockchain-ul Monero Infinity?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="113"/>
@@ -2099,8 +2099,8 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="140"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero instance. However, storing the full blockchain is beneficial to the security of the Monero network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation>Modul de economisire spațiu pe disc folosește mult mai puțin spațiu, dar la fel de multă lățime de bandă ca și o instanță normală Monero. Totuși, stocarea întregului blockchain este benefică pentru securitatea rețelei Monero. Dacă folosești un dispozitiv cu spațiu de stocare limitat, această setare este potrivită pentru tine.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero Infinity instance. However, storing the full blockchain is beneficial to the security of the Monero Infinity network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation>Modul de economisire spațiu pe disc folosește mult mai puțin spațiu, dar la fel de multă lățime de bandă ca și o instanță normală Monero Infinity. Totuși, stocarea întregului blockchain este benefică pentru securitatea rețelei Monero Infinity. Dacă folosești un dispozitiv cu spațiu de stocare limitat, această setare este potrivită pentru tine.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="153"/>
@@ -2109,8 +2109,8 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="169"/>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Minatul securizează rețeaua Monero și, de asemenea, oferă o mică sumă ca recompensă pentru munca efectuată. Această setare permite minatul Monero atunci când calculatorul este inactiv și conectat la rețeaua electrică. Minatul se va opri atunci când reîncepi să folosești calculatorul.</translation>
+        <source>Mining secures the Monero Infinity network, and also pays a small reward for the work done. This option will let Monero Infinity mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Minatul securizează rețeaua Monero Infinity și, de asemenea, oferă o mică sumă ca recompensă pentru munca efectuată. Această setare permite minatul Monero Infinity atunci când calculatorul este inactiv și conectat la rețeaua electrică. Minatul se va opri atunci când reîncepi să folosești calculatorul.</translation>
     </message>
 </context>
 <context>
@@ -2141,8 +2141,8 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
     <name>WizardDaemonSettings</name>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="114"/>
-        <source>To be able to communicate with the Monero network your wallet needs to be connected to a Monero node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
-        <translation>Pentru a putea comunica cu rețeaua Monero, portofelul tău trebuie să fie conectat la un serviciu (nod) Monero. Pentru confidențialitate maximă, se recomandă să rulezi propriul tău serviciu.                         &lt;br&gt;&lt;br&gt;                         Dacă poți să rulezi un serviciu local, te poți conecta la unul remote.</translation>
+        <source>To be able to communicate with the Monero Infinity network your wallet needs to be connected to a Monero Infinity node. For best privacy it&apos;s recommended to run your own node.                         &lt;br&gt;&lt;br&gt;                         If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
+        <translation>Pentru a putea comunica cu rețeaua Monero Infinity, portofelul tău trebuie să fie conectat la un serviciu (nod) Monero Infinity. Pentru confidențialitate maximă, se recomandă să rulezi propriul tău serviciu.                         &lt;br&gt;&lt;br&gt;                         Dacă poți să rulezi un serviciu local, te poți conecta la unul remote.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="126"/>
@@ -2174,8 +2174,8 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
     <name>WizardDonation</name>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="93"/>
-        <source>Monero development is solely supported by donations</source>
-        <translation>Dezvoltarea Monero este susținută exclusiv prin donații</translation>
+        <source>Monero Infinity development is solely supported by donations</source>
+        <translation>Dezvoltarea Monero Infinity este susținută exclusiv prin donații</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="113"/>
@@ -2189,8 +2189,8 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="162"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation>Pentru fiecare tranzacție se plătește un mic comision de tranzacție. Această setare îți permite să adaugi o mică sumă la tranzacție, ca procent din comisionul respectiv, pentru a susține dezvoltarea Monero. De exemplu, pentru un comision de 0.005 XMR, o donație automată de 50% adaugă 0.0025 XMR pentru susținerea dezvoltării Monero.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero Infinity development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero Infinity development.</source>
+        <translation>Pentru fiecare tranzacție se plătește un mic comision de tranzacție. Această setare îți permite să adaugi o mică sumă la tranzacție, ca procent din comisionul respectiv, pentru a susține dezvoltarea Monero Infinity. De exemplu, pentru un comision de 0.005 XMR, o donație automată de 50% adaugă 0.0025 XMR pentru susținerea dezvoltării Monero Infinity.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="174"/>
@@ -2199,8 +2199,8 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="190"/>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Minatul securizează rețeaua Monero și, de asemenea, oferă o mică sumă ca recompensă pentru munca efectuată. Această setare permite minatul Monero atunci când calculatorul este inactiv și conectat la rețeaua electrică. Minatul se va opri atunci când reîncepi să folosești calculatorul.</translation>
+        <source>Mining secures the Monero Infinity network, and also pays a small reward for the work done. This option will let Monero Infinity mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Minatul securizează rețeaua Monero Infinity și, de asemenea, oferă o mică sumă ca recompensă pentru munca efectuată. Această setare permite minatul Monero Infinity atunci când calculatorul este inactiv și conectat la rețeaua electrică. Minatul se va opri atunci când reîncepi să folosești calculatorul.</translation>
     </message>
 </context>
 <context>
@@ -2413,8 +2413,8 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="76"/>
-        <source>Welcome to Monero!</source>
-        <translation>Bine ai venit la Monero!</translation>
+        <source>Welcome to Monero Infinity!</source>
+        <translation>Bine ai venit la Monero Infinity!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="87"/>
@@ -2503,8 +2503,8 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="73"/>
-        <source>Welcome to Monero!</source>
-        <translation>Bine ai venit la Monero!</translation>
+        <source>Welcome to Monero Infinity!</source>
+        <translation>Bine ai venit la Monero Infinity!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="83"/>
@@ -2692,8 +2692,8 @@ Indexul adresei de cheltuit:</translation>
     </message>
     <message>
         <location filename="../main.qml" line="800"/>
-        <source>Monero sent successfully: %1 transaction(s) </source>
-        <translation>Monero trimiși cu succes: %1 tranzacție</translation>
+        <source>Monero Infinity sent successfully: %1 transaction(s) </source>
+        <translation>Monero Infinity trimiși cu succes: %1 tranzacție</translation>
     </message>
     <message>
         <location filename="../main.qml" line="830"/>
@@ -2867,8 +2867,8 @@ Indexul adresei de cheltuit:</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1298"/>
-        <source>Monero</source>
-        <translation>Monero</translation>
+        <source>Monero Infinity</source>
+        <translation>Monero Infinity</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1448"/>
