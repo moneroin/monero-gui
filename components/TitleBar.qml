@@ -77,7 +77,7 @@ Rectangle {
 
     Item {
         id: titlebarlogo
-        width: 125
+        width: 192
         height: parent.height
         anchors.centerIn: parent
         visible: customDecorations && showMoneroLogo
@@ -87,7 +87,7 @@ Rectangle {
             anchors.left: parent.left
             anchors.top: parent.top
             anchors.topMargin: 11
-            width: 125
+            width: 192
             height: 28
             source: "../images/titlebarLogo.png"
         }
